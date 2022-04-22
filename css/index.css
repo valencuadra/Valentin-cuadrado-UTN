@@ -2,3 +2,40 @@ h1{
     border-color: black;
     background-color: aquamarine;
 }
+
+.banner-topu{
+    padding: auto;
+    display: flex;
+}
+
+#contenedore{
+    display:flex;
+    background-color: aqua;
+    justify-content: space-around;
+
+}
+
+.primero{
+    padding: 3%;
+
+}
+
+.segundox{
+    padding: 3%;
+}
+
+.footerino{
+    margin-top: 30px;
+    align-items: center;
+    background: chocolate;
+    display:flex
+    
+}
+
+@media screen and (min-with: 666px) and (max-with: 999px) {
+
+    body{
+        background: rgb(21, 172, 192);
+    }
+    
+}
